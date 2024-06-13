@@ -197,7 +197,7 @@ const Quiz = ({ initialHearts, initialLessonChallenges, initialLessonId, initial
         : currentChallenge.question
 
     return (
-        <div className="h-screen flex flex-col justify-between">
+        <div className="h-screen flex flex-col justify-around">
             {correctAudio}
             {incorrectAudio}
 

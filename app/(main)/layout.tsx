@@ -11,7 +11,7 @@ const MainLayout = ({ children }: LearnLayoutProps) => {
         <>
             <MobileHeader />
             <Sidebar className="hidden lg:flex" />
-            <main className="lg:pl-[256px] h-full pb-[75px] lg:pb-0">
+            <main className="lg:pl-[256px] h-full lg:pb-0">
                 <div className="max-w-[1056px] mx-auto pt-6 h-full">{children}</div>
             </main>
         </>
