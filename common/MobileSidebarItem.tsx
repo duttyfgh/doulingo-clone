@@ -16,7 +16,7 @@ const SidebarItem = ({ href, iconSrc }: SidebarItemProps) => {
   const active = pathname === href
 
   return (
-    <Link href={href} className={`p-2  border-2 ${active ? 'bg-[#20abeb70] border-[#20ACEB]' : 'bg-[#ffffff75] border-white'}  rounded-xl flex items-center justify-center`}>
+    <Link href={href} className={`p-2  border-2 ${active ? 'bg-[#20abeb70] border-[#20ACEB]' : 'bg-[#ffffff75] border'} h-[50px]  rounded-xl flex items-center justify-center`}>
       <Image src={iconSrc} alt='...' height={30} width={30} />
     </Link>
   )

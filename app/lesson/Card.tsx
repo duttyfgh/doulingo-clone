@@ -47,7 +47,7 @@ const Card = ({
         <div
             onClick={handleClick}
             className={cn(
-                'h-full border-2 rounded-xl border-b-4 lg:hover:bg-black/5 p-4 lg:p-6 cursor-pointer active:border-b-2',
+                ' border-2 rounded-xl border-b-4 lg:hover:bg-black/5 p-4 lg:p-6 cursor-pointer active:border-b-2',
                 selected && 'border-sky-300 bg-sky-100 lg:hover:bg-sky-100',
                 selected && status === 'correct' && 'border-lime-300 bg-lime-100 lg:hover:bg-lime-100',
                 selected && status === 'wrong' && 'border-rose-300 bg-rose-100 lg:hover:bg-rose-100',
